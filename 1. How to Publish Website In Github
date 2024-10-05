@@ -1,0 +1,86 @@
+////////How to publish Website in GitHub///////////////////////////////
+
+https://www.youtube.com/watch?v=OltY8JIaP-4
+
+How to publish Personal Website (like portfolio)
+--------------------------------------------
+Step-1 : Login to your github account
+
+Step-2: Create a new Repositories
+
+- click on "New" button
+- Repository name: yourusername.github.io
+- Add a README file
+- click on "Create repository" button 
+
+Step-3: Upload website files (index.html, about.html,...) with css files in your repository
+
+Step-4: Change Settings
+- click on "Settings" link --> Pages
+	- Source: Master/Main
+	- click on Save
+- you will see website access url. copy the url and paste in browser
+
+
+How to publish Other Website
+--------------------------------
+Step-1 : Login to your github account
+
+Step-2: Create a new Repositories
+
+- click on "New" button
+- Repository name: yourProjectName
+- Add a README file
+- click on "Create repository" button 
+
+Step-3: Upload website files (index.html, about.html,...) with css files in your repository
+
+Step-4: Change Settings
+- click on "Settings" link --> Pages
+	- Source: Master/Main
+	- click on Save
+- you will see website access url. copy the url and paste in browser
+
+
+index.html
+----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale-1.0"> <link rel="stylesheet" href="style.css">
+<title>MAIN PAGE</title>
+</head>
+<body>
+<div class="container">
+<h1>Welcome to my Personal Website!</h1>
+<h2>Check out my youtube channel for web game tutorials!</h2> 
+<h2>Don't forget to like and subscribe to my youtube channel!</h2> 
+<a href="./about"> <h2>Click here to learn about me!</h2></a> </div>
+</body> 
+</html>
+
+about.html
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale-1.0"> <link rel="stylesheet" href="style.css"
+<title>ABOUT PAGE</title>
+</head>
+<body>
+<div class="container">
+<h1>ABOUT ME</h1>
+<p>Hi, I'm Kenny and I teach coding on youtube!</p>
+<a href="./index"> <h2>Click here to return to main page!</h2></a>
+</div>
+/body
+</html>
+
+
+
+
+
